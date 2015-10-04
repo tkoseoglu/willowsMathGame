@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,8 @@
 		36034A6F1BC07C310018725D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36034A6D1BC07C310018725D /* Main.storyboard */; };
 		36034A711BC07C310018725D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36034A701BC07C310018725D /* Assets.xcassets */; };
 		36034A741BC07C310018725D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36034A721BC07C310018725D /* LaunchScreen.storyboard */; };
+		36034A9C1BC09AE60018725D /* AdditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36034A9B1BC09AE60018725D /* AdditionsViewController.swift */; };
+		36034A9E1BC0DDC10018725D /* redError.png in Resources */ = {isa = PBXBuildFile; fileRef = 36034A9D1BC0DDC10018725D /* redError.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		36034A701BC07C310018725D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36034A731BC07C310018725D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36034A751BC07C310018725D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36034A9B1BC09AE60018725D /* AdditionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdditionsViewController.swift; sourceTree = "<group>"; };
+		36034A9D1BC0DDC10018725D /* redError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redError.png; path = ../../../Downloads/redError.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				36034A691BC07C310018725D /* AppDelegate.swift */,
+				36034A9B1BC09AE60018725D /* AdditionsViewController.swift */,
 				36034A6B1BC07C310018725D /* ViewController.swift */,
+				36034A9D1BC0DDC10018725D /* redError.png */,
 				36034A6D1BC07C310018725D /* Main.storyboard */,
 				36034A701BC07C310018725D /* Assets.xcassets */,
 				36034A721BC07C310018725D /* LaunchScreen.storyboard */,
@@ -99,7 +105,7 @@
 				};
 			};
 			buildConfigurationList = 36034A611BC07C310018725D /* Build configuration list for PBXProject "Willows Math Game" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -121,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36034A9E1BC0DDC10018725D /* redError.png in Resources */,
 				36034A741BC07C310018725D /* LaunchScreen.storyboard in Resources */,
 				36034A711BC07C310018725D /* Assets.xcassets in Resources */,
 				36034A6F1BC07C310018725D /* Main.storyboard in Resources */,
@@ -135,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36034A6C1BC07C310018725D /* ViewController.swift in Sources */,
+				36034A9C1BC09AE60018725D /* AdditionsViewController.swift in Sources */,
 				36034A6A1BC07C310018725D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +258,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WATG.Willows-Math-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -261,6 +270,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WATG.Willows-Math-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
